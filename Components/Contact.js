@@ -12,7 +12,7 @@ var Contact = React.createClass({
 					alt: 'Zdjęcie'
 				}),
 				React.createElement('p', {className: 'contact-Label'}, 'Imię: ' + this.props.item.firstName),
-				React.createElement('p', {className: 'contact-Label'}, 'Nazwisko: ' + this.props.item.Name),
+				React.createElement('p', {className: 'contact-Label'}, 'Nazwisko: ' + this.props.item.lastName),
 				React.createElement('a', {className: 'contact-Email'}, href: 'mailto: ' 'Imię: ' + this.props.item.email),
 				this.props.item.email	
 			)

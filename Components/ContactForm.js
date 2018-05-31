@@ -20,9 +20,9 @@ var ContactForm = React.createClass({
 					type: 'email',
 					placeholder: 'Email',
 					value: this.props.contact.email
-				});
+				}),
 				React.createElement('button', {type:'submit'}, "Dodaj kontakt")
-			);
+			),
 		);
 	};
 });

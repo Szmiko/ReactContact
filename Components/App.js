@@ -1,4 +1,4 @@
-var contcts = [
+var contacts = [
 	{
 		id: 1,
 		firstName: 'Jan',
